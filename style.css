@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6DBCD;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav h1 {
+    font-family: "Unica One", sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+.nav img {
+    max-width: 100px;
+    padding-right: 10px;
+}
+
+#img_favorite {
+    padding-top: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+section h1 {
+    font-family: "Syne", sans-serif;
+    font-size: 50px;
+}
+
+#pesquisa {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main h1 {
+    font-family: "Unica One", sans-serif;
+    color: gray;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Syne", sans-serif;
+    color: gray;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+a h3:hover {
+    color: black;
+}
+
+#explorar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    align-items: center;
+    margin: 20;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    height: 200;
+    width: 800;
+    margin: 47px;
+    align-items: center;
+
+}
+
+#maincontainer {
+    border: 2px dashed black;
+    border-radius: 20px;
+
+}
+
+
+.container img {
+    max-width: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #E6DBCD;
+    color: #7B6253;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: #e8e1db;
+    animation-duration: 2s;
+}
+
+
+
+p {
+    font-family: "Unica One", sans-serif;
+    font-size: 18px;
+}
