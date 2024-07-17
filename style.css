@@ -24,7 +24,7 @@ nav {
 .nav h1 {
     font-family: "Unica One", sans-serif;
     font-size: 18px;
-    color: black;
+    color: #7B6253;
     font-weight: 500;
 }
 
@@ -42,28 +42,81 @@ section {
     flex-direction: row;
     justify-content: space-around;
     margin: 80px;
+    line-height: 50px;
 }
 
 section h1 {
     font-family: "Syne", sans-serif;
-    font-size: 50px;
+    font-size: 57px;
+    color: #3D3C3C;
+    padding-bottom: 30px;
+}
+
+section p {
+    font-size: 16px;
+    font-family: "Syne", sans-serif;
+    color: #676767;
 }
 
 #pesquisa {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    padding-bottom: 20px;
+    align-items: start;
+}
+
+#paragrafo {
+    padding-bottom: 20px;
+}
+
+input {
+    font-family: "Syne", sans-serif;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bolder;
+    background-color: #E6DBCD;
+    width: 500px;
+    height: 40px;
+    border-radius: 40px;
+    border-color: #3D3C3C;
+    padding-left: 10px;
+}
+
+.icon-input {
+    background-image: url(assets/images/MAGNIFYING_GLASS.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+
+#pesquisa button {
+    font-family: "Syne", sans-serif;
+    border-radius: 10px;
+    height: 50px;
+}
+
+#pesquisa button:hover {
+    background-color: #e8e1db;
+    animation-duration: 2s;
+}
+
+#button-explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
 }
 
 main h1 {
     font-family: "Unica One", sans-serif;
-    color: gray;
-    font-weight: bold;
+    color: #7B6253;
+    font-weight: 400;
+    font-size: 40px;
 }
 
 h3 {
     font-family: "Syne", sans-serif;
-    color: gray;
+    color: #7B6253;
     font-size: 16px;
     font-weight: 200;
 }
@@ -73,7 +126,20 @@ a {
 }
 
 a h3:hover {
-    color: black;
+    color: #8b7b71;
+}
+
+#title-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E6DBCD;
+    margin: 0;
+    max-height: 150px;
+}
+
+#title-main h1 {
+    padding-top: 50px;
 }
 
 #explorar {
@@ -120,6 +186,7 @@ button {
     width: 150px;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
 }
 
 .button:hover {
