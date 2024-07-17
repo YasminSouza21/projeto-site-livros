@@ -165,6 +165,9 @@ div {
 }
 
 #maincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     border: 2px dashed black;
     border-radius: 20px;
 }
